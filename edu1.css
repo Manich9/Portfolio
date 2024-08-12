@@ -1,0 +1,209 @@
+*
+{
+    margin:0;
+    padding-top: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+body{
+    background-color:#081b29;
+    color:#ededed;
+}
+.logo{
+    font-size: 25px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 600;
+}
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100; /* Ensure the header is above other content */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+
+
+.navbar a {
+    font-size: 18px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+}
+
+.navbar a:hover {
+    color: rgb(0, 200, 0);
+}
+
+
+
+h1:hover{
+    color:darkmagenta;
+
+}
+.ed{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+span{
+    color: fuchsia;
+}
+.home-sci{
+    position:absolute;
+    margin-bottom:0;
+    width:170px;
+    display:flex;
+    justify-content:space-between;
+    display: block;
+}
+.home-sci a{
+    position:relative;
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    width:40px;
+    height:40px;
+    background:transparent;
+    border:2px solid aquamarine;
+    border-radius:8px;
+    font-size:24px;
+    color:aquamarine;
+    text-decoration:none;
+    z-index:1;
+    overflow:hidden;
+    transition:.5s;
+    
+}
+.home-sci a:hover{
+    color:#081b29;
+}
+.home-sci a::before{
+    content:'';
+    position:absolute;
+    top:0;
+    left:0;
+    width:0;
+    height:100%;
+    background-color:aquamarine;
+    z-index:-1;
+    transition:.5s;
+
+
+}
+.home-sci a:hover::before{
+    width:100%;
+}
+
+
+/* CSS for hiding effect */
+
+.main {
+    padding: 16px;
+    margin-top: 20px;
+    height: 1300px; /* Used in this example to enable scrolling */
+  }
+  .header {
+    overflow: hidden;
+    background-color:#081b29;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  .footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position:static;
+    margin-bottom: 0px;
+    margin-top: 50px;
+    width: 100%;
+}
+/*new edu css*/
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color:darkolivegreen;
+    color: #333;
+    line-height: 1.6;
+}
+
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    margin: 20px 0;
+    background-color: chartreuse;
+    border-radius: 8px;
+}
+
+/* Education section styling */
+.education {
+    max-width: 800px;
+    margin-top: 100px;
+    margin-left: 200px;
+    padding: 20px;
+    background:  #D4AF37;
+    border-radius: 8px;
+    box-shadow:5px 5px 5px 5px black;
+}
+
+.education-container {
+    padding: 10px;
+    color:  #36454F;
+    
+}
+
+.education-item {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-left: 4px solid red;
+    background:#ededed;
+    
+    border-radius: 4px;
+    
+    
+}
+
+.education-item h2 {
+    color:darkblue;
+    margin-bottom: 5px;
+}
+
+.education-item .institution {
+    font-weight: bold;
+    color: #555;
+}
+
+.education-item .dates {
+    font-style: italic;
+    color: #777;
+    margin: 5px 0;
+}
+
+.education-item .description {
+    margin-top: 10px;
+    color: #444;
+}
+.education-item:hover{
+    box-shadow: 4px 4px 4px 4px green;
+}
+
+  
